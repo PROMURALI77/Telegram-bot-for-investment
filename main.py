@@ -41,9 +41,9 @@ class Form(StatesGroup):
     oplata = State()
 
 async def on_startup(_):
-    print('Бот рабочий')
+    print('bot online')
 
-KASSA = '1744374395:TEST:4e0c3a8792d1076d657d'
+KASSA = '' #Payment key
 
 async def check_sub_channels(channels, user_id):
     for channel in channels:
